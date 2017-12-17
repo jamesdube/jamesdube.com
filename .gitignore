@@ -7,3 +7,5 @@ mix-manifest.json
 public/css/*
 public/js/*
 
+public/js/app.js
+public/css/app.css
