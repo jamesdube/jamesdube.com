@@ -13,10 +13,6 @@ let routes = [
 		path : '/projects',
 		component : require('./views/projects')
 	},
-	{
-		path : '/blog',
-		component : require('./views/blog')
-	}
 ]
 
 export default new VueRouter({
