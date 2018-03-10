@@ -48,7 +48,7 @@
 						tags : [
 							'javascript','vue'
 						],
-						link : '/'
+						link : 'https://github.com/jamesddube/jamesdube.com'
 					},
 					{
 						title : 'Auto-Virtual Hosts',
