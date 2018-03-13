@@ -2855,7 +2855,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_
 
 
 
-__webpack_require__(22);
+__webpack_require__(19);
 
 try {
 	window.$ = window.jQuery = __webpack_require__(23);
@@ -14056,9 +14056,6 @@ var routes = [{
 }, {
 	path: '/projects',
 	component: __webpack_require__(16)
-}, {
-	path: '/blog',
-	component: __webpack_require__(34)
 }];
 
 /* harmony default export */ __webpack_exports__["a"] = (new __WEBPACK_IMPORTED_MODULE_0_vue_router__["a" /* default */]({
@@ -14410,7 +14407,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 				title: 'My Website',
 				description: "My own personal site about me (this site!), listing all the current and previous projects I've worked on, as well as contact information. Site was done using bootstrap and vue.",
 				tags: ['javascript', 'vue'],
-				link: '/'
+				link: 'https://github.com/jamesddube/jamesdube.com'
 			}, {
 				title: 'Auto-Virtual Hosts',
 				description: "This is a bash script I've used for a while to create virtual hosts in apache web server, just input the your desired site name and the projects root location and it does all the rest for you!",
@@ -14534,14 +14531,101 @@ if (false) {
 }
 
 /***/ }),
-/* 19 */,
-/* 20 */,
-/* 21 */,
-/* 22 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-Vue.component('copyright', __webpack_require__(31));
+Vue.component('copyright', __webpack_require__(20));
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(0)
+/* script */
+var __vue_script__ = __webpack_require__(21)
+/* template */
+var __vue_template__ = __webpack_require__(22)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src\\js\\components\\copyright.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-b262d9c4", Component.options)
+  } else {
+    hotAPI.reload("data-v-b262d9c4", Component.options)
+' + '  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 21 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+
+	methods: {
+		getYear: function getYear() {
+			var date = new Date();
+			return date.getFullYear();
+		}
+	}
+});
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [_vm._v("\n\t© " + _vm._s(_vm.getYear()) + " James Dube\n")])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-b262d9c4", module.exports)
+  }
+}
 
 /***/ }),
 /* 23 */
@@ -23818,296 +23902,6 @@ var bootstrap = function (t, e, n) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-
-/***/ }),
-/* 27 */,
-/* 28 */,
-/* 29 */,
-/* 30 */,
-/* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = __webpack_require__(32)
-/* template */
-var __vue_template__ = __webpack_require__(33)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "src\\js\\components\\copyright.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-b262d9c4", Component.options)
-  } else {
-    hotAPI.reload("data-v-b262d9c4", Component.options)
-' + '  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 32 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-
-	methods: {
-		getYear: function getYear() {
-			var date = new Date();
-			return date.getFullYear();
-		}
-	}
-});
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", [_vm._v("\n\t© " + _vm._s(_vm.getYear()) + " James Dube\n")])
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-b262d9c4", module.exports)
-  }
-}
-
-/***/ }),
-/* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var disposed = false
-var normalizeComponent = __webpack_require__(0)
-/* script */
-var __vue_script__ = __webpack_require__(35)
-/* template */
-var __vue_template__ = __webpack_require__(36)
-/* template functional */
-var __vue_template_functional__ = false
-/* styles */
-var __vue_styles__ = null
-/* scopeId */
-var __vue_scopeId__ = null
-/* moduleIdentifier (server only) */
-var __vue_module_identifier__ = null
-var Component = normalizeComponent(
-  __vue_script__,
-  __vue_template__,
-  __vue_template_functional__,
-  __vue_styles__,
-  __vue_scopeId__,
-  __vue_module_identifier__
-)
-Component.options.__file = "src\\js\\views\\blog.vue"
-if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
-
-/* hot reload */
-if (false) {(function () {
-  var hotAPI = require("vue-hot-reload-api")
-  hotAPI.install(require("vue"), false)
-  if (!hotAPI.compatible) return
-  module.hot.accept()
-  if (!module.hot.data) {
-    hotAPI.createRecord("data-v-183327ad", Component.options)
-  } else {
-    hotAPI.reload("data-v-183327ad", Component.options)
-' + '  }
-  module.hot.dispose(function (data) {
-    disposed = true
-  })
-})()}
-
-module.exports = Component.exports
-
-
-/***/ }),
-/* 35 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-	data: function data() {
-		return {
-			projects: [{
-				title: 'Laravel News App',
-				description: "This is an android app I made as a news reader for Laravel's official blog, however it is not the official app and is completely open source",
-				tags: ['android', 'java'],
-				link: 'https://github.com/jamesddube/LaravelNewsApp'
-			}, {
-				title: 'My Website',
-				description: "My own personal site about me (this site!), listing all the current and previous projects I've worked on, as well as contact information. Site was done using bootstrap and vue.",
-				tags: ['javascript', 'vue'],
-				link: '/'
-			}, {
-				title: 'Auto-Virtual Hosts',
-				description: "This is a bash script I've used for a while to create virtual hosts in apache web server, just input the your desired site name and the projects root location and it does all the rest for you!",
-				tags: ['bash', 'linux'],
-				link: 'https://gist.github.com/jamesddube/b526928afe6ed2f4e935'
-			}, {
-				title: 'Laravel Model Validator',
-				description: "A laravel package that adds functionality to validate a model on demand as when needed anywhere in your code",
-				tags: ['laravel', 'php'],
-				link: 'https://github.com/jamesddube/model-validator'
-			}]
-		};
-	}
-});
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c(
-    "transition",
-    {
-      attrs: {
-        name: "custom-classes-transition",
-        "enter-active-class": "animated fadeIn"
-      }
-    },
-    [
-      _c("div", { staticClass: "row mt-md-9 d-flex justify-content-center" }, [
-        _c("div", { staticClass: "col-md-10" }, [
-          _c("div", { staticClass: "//mt-3" }, [
-            _c("h1", { staticClass: "font-weight-light" }, [
-              _vm._v("Random "),
-              _c("span", { staticClass: "text-brand" }, [_vm._v("Thoughts")])
-            ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "lead mt-3" }, [
-            _c("p", [
-              _vm._v(
-                "Here's a hand picked selection of some of my work, see more over on "
-              ),
-              _c(
-                "a",
-                {
-                  staticClass: "text-brand",
-                  attrs: { href: "https://github.com/jamesddube" }
-                },
-                [_vm._v("Github")]
-              )
-            ])
-          ])
-        ]),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass:
-              "row mt-4 d-flex justify-content-center align-items-stretch"
-          },
-          _vm._l(_vm.projects, function(project) {
-            return _c("div", { staticClass: "col-md-10 p-4" }, [
-              _c(
-                "a",
-                { staticClass: "text-dark", attrs: { href: project.link } },
-                [
-                  _c("div", { staticClass: "mb-3" }, [
-                    _c("div", { staticClass: "//card-body" }, [
-                      _c("h4", { staticClass: "card-title text-brand" }, [
-                        _vm._v(_vm._s(project.title))
-                      ]),
-                      _vm._v(" "),
-                      _c("p", { staticClass: "card-text" }, [
-                        _vm._v(_vm._s(project.description))
-                      ])
-                    ])
-                  ])
-                ]
-              )
-            ])
-          })
-        )
-      ])
-    ]
-  )
-}
-var staticRenderFns = []
-render._withStripped = true
-module.exports = { render: render, staticRenderFns: staticRenderFns }
-if (false) {
-  module.hot.accept()
-  if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-183327ad", module.exports)
-  }
-}
 
 /***/ })
 /******/ ]);
