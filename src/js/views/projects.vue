@@ -14,13 +14,13 @@
 		<div class="row mt-4 d-flex justify-content-center align-items-stretch">
             <div class="col-md-5 p-4" v-for='project in projects'>
             	<a v-bind:href="project.link" class="text-dark">
-            	<div class="card mb-3 box-shadow d-flex " style="min-height: 199.317px;">
-  					<div class="card-body">
-    					<h4 class="card-title text-brand">{{ project.title }}</h4>
-    					<p class="card-text">{{ project.description }}</p>
+            	<div class="card mb-3 box-shadow d-flex bg-dark" style="min-height: 199.317px;">
+  					<div class="card-body bg-dark">
+						<h4 class="card-title text-brand">{{ project.title }}</h4>
+    					<p class="card-text text-muted /">{{ project.description }}</p>
   					</div>
-  					<div class="border-t border-light p-3">
-  						<small v-for="tag in project.tags" class="text-white mr-2 badge //badge-pill badge-brand-inverse">{{ tag }}</small>
+  					<div class="border-t border-brand p-3 bg-dark">
+  						<small v-for="tag in project.tags" class="text-white mr-2 badge bg-brand //badge-pill //badge-brand-inverse">{{ tag }}</small>
   					</div>
 				</div>
             	</a>
