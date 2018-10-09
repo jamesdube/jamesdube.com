@@ -3,6 +3,8 @@ node_js:
   - "node"
 script:
   - echo "deploying"
+    yarn install laravel-mix
+    yarn run production
 deploy:
   provider: firebase
   token:
