@@ -1,9 +1,9 @@
 language: node_js
 node_js:
- - "4.0"
-script: 
- - echo "Deploying!"
-install:
- - npm install -g firebase-tools
-after_success:
- - firebase deploy --token $FIREBASE_TOKEN
+  - "node"
+script:
+  - echo "deploying"
+deploy:
+  provider: firebase
+  token:
+    secure: "W6N7gApTlq2QDEYetO+FemcxpsXgztF743JUN3ha47BDBVNElWG/HAxGmpXwgWoJxhDTHd2qY2Y3+/BuNNuS94RFHTbahio56zEEwxxMDQfQirthLCChIge8K9+CgjYwuFmTE3ixkSmUDDE7JT+YpTKJbJdXaj2jxzMEshjfsGqGQ2kDvKvcq6YQT+jA3Fh358GKXztf0o1iL7aLLWbWbUXJfJPyVTOHSwXkCY8fTo5c39G9kX2H2Xj25rxvTOHcsPvOwnhlLLa749a6axysfDASdeil7IHKWmL5VR/HXHaM8KqZhvWySW7gYUwTcRMvi4+Ah1MI4TWEQju995DQcTn4UygZtntT8KX2NExHaW2ZbQOv3tYpG0kxzJd4PV20Key8pBlVKAg4Jx2x8n9tI6T5HRuHgVHhu1phtDUJU9NCh4H8FLYNMtVqdTRIxgCXRlg60HjhysN8Hzq8iLAf7fDzyQyYcQlXxxFJ7MC2xrAOzSkYVQH5ameVmMtKmtKlkyj63yQRsgHOZiBJNq7jNSHPMBTycg9VFIjn93uSy7X6ApIgRkfxRbL43wY+7Wa+qemkoR0TYLZSAAFt5FML/onYh5dTrHNrLtEQmEgx/IsfSSk2tt9JnuNBkcEDW3OgyN4HHriuoYITqpMz86EkAd0FDpYh8HyrQ7bYxTjUbco="
