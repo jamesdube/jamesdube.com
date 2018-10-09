@@ -1,9 +1,10 @@
 language: node_js
 node_js:
   - "node"
+install:
+ — yarn
 script:
   - echo "deploying"
-    yarn install laravel-mix
     yarn run production
 deploy:
   provider: firebase
