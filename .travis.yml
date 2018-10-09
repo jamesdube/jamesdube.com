@@ -5,7 +5,7 @@ install:
  — yarn
 script:
   - echo "deploying"
-    yarn run production
+    npm run production
 deploy:
   provider: firebase
   token:
