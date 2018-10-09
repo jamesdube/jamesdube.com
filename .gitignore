@@ -5,3 +5,5 @@ npm-debug.log
 yarn.lock
 mix-manifest.json
 public/
+.idea/
+yarn-error.log

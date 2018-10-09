@@ -14481,29 +14481,29 @@ var render = function() {
                   _c(
                     "div",
                     {
-                      staticClass: "card mb-3 box-shadow d-flex ",
+                      staticClass: "card mb-3 box-shadow d-flex bg-dark",
                       staticStyle: { "min-height": "199.317px" }
                     },
                     [
-                      _c("div", { staticClass: "card-body" }, [
+                      _c("div", { staticClass: "card-body bg-dark" }, [
                         _c("h4", { staticClass: "card-title text-brand" }, [
                           _vm._v(_vm._s(project.title))
                         ]),
                         _vm._v(" "),
-                        _c("p", { staticClass: "card-text" }, [
+                        _c("p", { staticClass: "card-text text-muted /" }, [
                           _vm._v(_vm._s(project.description))
                         ])
                       ]),
                       _vm._v(" "),
                       _c(
                         "div",
-                        { staticClass: "border-t border-light p-3" },
+                        { staticClass: "border-t border-brand p-3 bg-dark" },
                         _vm._l(project.tags, function(tag) {
                           return _c(
                             "small",
                             {
                               staticClass:
-                                "text-white mr-2 badge //badge-pill badge-brand-inverse"
+                                "text-white mr-2 badge bg-brand //badge-pill //badge-brand-inverse"
                             },
                             [_vm._v(_vm._s(tag))]
                           )
