@@ -14,20 +14,13 @@
     "prod": "npm run production",
     "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
-  "dependencies": {
-    "animate.css": "^3.5.2",
-    "bootstrap": "4.1.2",
-    "jquery": "^3.2.1",
-    "jquery-slim": "^3.0.0",
-    "popper": "^1.0.1",
-    "vue": "^2.5.9",
-    "vue-router": "^3.0.1"
-  },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "browser-sync-webpack-plugin": "^1.2.0",
-    "cross-env": "^5.1.1",
-    "laravel-mix": "^1.7.2",
-    "purifycss-webpack": "^0.7.0"
+    "cross-env": "^5.1",
+    "laravel-mix": "^4.0.14",
+    "resolve-url-loader": "2.3.1",
+    "sass": "^1.17.2",
+    "sass-loader": "7.*",
+    "tailwindcss": "^0.7.4",
+    "vue-template-compiler": "^2.6.8"
   }
 }
