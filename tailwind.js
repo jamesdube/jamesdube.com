@@ -46,7 +46,8 @@ let defaultConfig = require('tailwindcss/defaultConfig')()
 let colors = {
   'transparent': 'transparent',
 
-  'primary' : '#e04832',
+  //'primary' : '#e04832',
+  'primary' : '#7ce61d',
   'secondary' : '#232531',
   'accent' : '#00ecea',
 
@@ -65,7 +66,8 @@ let colors = {
   'red-darkest': '#3b0d0c',
   'red-darker': '#621b18',
   'red-dark': '#cc1f1a',
-  'red': '#e3342f',
+  //'red': '#e3342f',
+  'red':'#7ce61d',
   'red-light': '#ef5753',
   'red-lighter': '#f9acaa',
   'red-lightest': '#fcebea',
@@ -200,6 +202,9 @@ module.exports = {
   */
 
   fonts: {
+    'logo':[
+      'Sacramento'
+    ],
     'sans': [
       'Roboto Mono',
       'system-ui',
@@ -506,6 +511,8 @@ module.exports = {
     '64': '16rem',
     '1/2': '50%',
     '1/3': '33.33333%',
+    '2/3': '66.66666%',
+    '1/33': '30%',
     '2/3': '66.66667%',
     '1/4': '25%',
     '3/4': '75%',
@@ -688,7 +695,9 @@ module.exports = {
     '24': '6rem',
     '32': '8rem',
     '36': '7.5rem',
-    '48': '8rem'
+    '48': '8rem',
+    '54': '12rem',
+    '64': '16rem'
   },
 
 
@@ -726,7 +735,9 @@ module.exports = {
     '24': '6rem',
     '32': '8rem',
     '36': '7.5rem',
-    '48': '8rem'
+    '48': '8rem',
+      '54': '12rem',
+    '64': '16rem'
   },
 
 
@@ -910,7 +921,7 @@ module.exports = {
     borderCollapse: [],
     borderColors: ['responsive', 'hover', 'focus'],
     borderRadius: ['responsive'],
-    borderStyle: ['responsive'],
+    borderStyle: ['responsive','hover'],
     borderWidths: ['responsive'],
     cursor: ['responsive'],
     display: ['responsive'],

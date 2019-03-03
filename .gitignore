@@ -4,6 +4,9 @@ npm-debug.log
 .firebase.json
 yarn.lock
 mix-manifest.json
-public/
+public/css
+public/js
 .idea/
 yarn-error.log
+jamesdube.sublime-project
+jamesdube.sublime-workspace

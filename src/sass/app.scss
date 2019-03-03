@@ -62,4 +62,21 @@
  * @import "utilities/skew-transforms";
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700');
+// @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,300,400,500,700');
+
+h2 {
+		position: relative;
+		&:after {
+			content: "";
+			left: -12%;
+			bottom: 0;
+			position: absolute;
+			width: 100px;
+			height: 2px;
+			background: linear-gradient(to right, #c70039, #ff5733 70%);
+		}
+	}
+
+a:hover {
+	transition: 0.3s all ease-in-out;
+}

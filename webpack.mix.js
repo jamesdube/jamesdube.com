@@ -6,6 +6,6 @@ mix.sass('src/sass/app.scss', 'public/css')
   .options({
     processCssUrls: false,
     postCss: [ tailwindcss('./tailwind.js') ],
-  });
+  }).browserSync('jamesdube.test');
 
 
