@@ -2,10 +2,10 @@
   <div id="app" class="antialiased text-gray-500 ">
 	<div class="bg-gray-900 min-h-screen">
 		<Navbar/>
-		<div class="md:px-48 lg:px-64">
+		<div class="md:lg-px-10 lg:px-48 //lg:px-64">
 			<Hero/>
 		</div>
-		<div class="md:px-48 lg:px-64">
+<!-- 		<div class="md:px-48 lg:px-64">
 			<About/>
 		</div>
 		<div class="md:px-48 lg:px-64">
@@ -19,7 +19,7 @@
 		</div>
 		<div class="md:px-48 lg:px-64 bg-gray-800">
 			<Footer/>
-		</div> 
+		</div>  -->
 	</div>
   </div>
 </template>
