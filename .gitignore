@@ -2,7 +2,6 @@ node_modules/
 npm-debug.log
 .firebaserc
 .firebase.json
-yarn.lock
 mix-manifest.json
 public/
 .idea/
