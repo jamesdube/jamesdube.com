@@ -1,5 +1,5 @@
 <template>
-  <header class=" sm:flex sm:justify-between sm:items-center //sm:px-4 sm:py-3 shadow-md px-32 sticky font-bar">
+  <header class=" sm:flex sm:justify-between sm:items-center //sm:px-4 sm:py-3 //shadow-md px-32 sticky font-bar">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
       <div class="text-2xl font-bold">
         <!-- <img class="h-8" src="/img/logo-inverted.svg" alt="Workcation"> -->

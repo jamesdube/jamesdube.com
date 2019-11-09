@@ -9,49 +9,48 @@
             </div>
             <div class="flex py-12">
                 <div class="w-1/2 pr-16 leading-relaxed">
-                    <p>Hello! I'm Brittany, a software engineer based in Boston, MA who enjoys building things that live on the internet. 
-                        I develop exceptional websites and web apps that provide intuitive, pixel-perfect user interfaces with efficient and modern backends.
+                    <p>I’m currently a full-stack Software Engineer but was previously a Systems Admin (More or less DevOps). I’m fascinated with the problem space of systems design which is why I made the jump.
                         </p><br/>
-                    <p>Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.
+                    <p>I’m currently neck deep in containerization technologies such as Docker and Kubernetes along with other Open Source projects from the Cloud Native Foundation . Do give my Github page a visit to see what else I’m doing.
                     </p><br/>
                     <p>Here are a few technologies I've been working with recently:</p>
-                    <div class="flex justify-between //pl-10">
-                        <ul class="w-1/2 //list-disc">
+                    <div class="flex justify-between mt-4 //pl-10">
+                        <ul class="w-3/4 //list-disc">
                             <li>
                                 <svg class="fill-current text-teal-500 inline-block h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 									<path d="M10 0a10 10 0 1 1 0 20 10 10 0 0 1 0-20zM2 10a8 8 0 1 0 16 0 8 8 0 0 0-16 0zm10.54.7L9 14.25l-1.41-1.41L10.4 10 7.6 7.17 9 5.76 13.24 10l-.7.7z"/>
 								</svg>
-                                Java
+                                Infrastructure and Configuration as Code
                             </li>
                             <li>
                                 <svg class="fill-current text-teal-500 inline-block h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 									<path d="M10 0a10 10 0 1 1 0 20 10 10 0 0 1 0-20zM2 10a8 8 0 1 0 16 0 8 8 0 0 0-16 0zm10.54.7L9 14.25l-1.41-1.41L10.4 10 7.6 7.17 9 5.76 13.24 10l-.7.7z"/>
 								</svg>
-                                PHP
+                                CI and CD
                             </li>
                             <li>
                                 <svg class="fill-current text-teal-500 inline-block h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 									<path d="M10 0a10 10 0 1 1 0 20 10 10 0 0 1 0-20zM2 10a8 8 0 1 0 16 0 8 8 0 0 0-16 0zm10.54.7L9 14.25l-1.41-1.41L10.4 10 7.6 7.17 9 5.76 13.24 10l-.7.7z"/>
 								</svg>
-                                Javascript
+                                Automating boring and manual stuff
                             </li>
                             <li>
                                 <svg class="fill-current text-teal-500 inline-block h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
 									<path d="M10 0a10 10 0 1 1 0 20 10 10 0 0 1 0-20zM2 10a8 8 0 1 0 16 0 8 8 0 0 0-16 0zm10.54.7L9 14.25l-1.41-1.41L10.4 10 7.6 7.17 9 5.76 13.24 10l-.7.7z"/>
 								</svg>
-                                Java
+                               Writing slick tests
                             </li>
-                        </ul>
-                        <ul class="w-1/2 list-disc">
-                            <li>HTML</li>
-                            <li>Vue</li>
-                            <li>(S)CSS</li>
-                            <li>Javascript</li>
+                            <li>
+                               <svg class="fill-current text-teal-500 inline-block h-4 w-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M10 0a10 10 0 1 1 0 20 10 10 0 0 1 0-20zM2 10a8 8 0 1 0 16 0 8 8 0 0 0-16 0zm10.54.7L9 14.25l-1.41-1.41L10.4 10 7.6 7.17 9 5.76 13.24 10l-.7.7z"/>
+                                </svg>
+                                Pushing performant code
+                            </li>
                         </ul>
                     </div>
                 </div>
                 <div class="pl-16">
-                    <img class="max-w-sm" src="https://pbs.twimg.com/profile_images/1101924989316591617/_iXT2rbW_400x400.png">
+                    <img class="max-w-sm rounded-full" src="https://pbs.twimg.com/profile_images/1101924989316591617/_iXT2rbW_400x400.png">
                 </div>
             </div>
             

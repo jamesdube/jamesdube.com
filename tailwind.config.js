@@ -9,6 +9,9 @@ module.exports = {
           'brand-accent': '#00CEAE',
           'brand-dark': '#0A192F',
           'brand-light': '#172A45'
+      },
+      fontSize: {
+        '7xl': '5rem',
       }
     }
   },

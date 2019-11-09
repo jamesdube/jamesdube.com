@@ -1,7 +1,7 @@
 <template>
-	<div class="text-center py-6">
+	<div class="text-center //py-4">
 		<div>
-			Built By James Dube
+			Built By James Dubej
 		</div>
 	</div>
 </template>
