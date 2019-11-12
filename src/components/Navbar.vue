@@ -17,9 +17,9 @@
     <nav :class="isOpen ? 'block' : 'hidden'" class="sm:block">
       <div class="px-2 pt-2 pb-4 sm:flex sm:p-0">
         <a href="#" class="block px-2 py-1 text-brand-accent font-semibold rounded hover:bg-gray-800">About</a>
-        <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Experience</a>
-        <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Work</a>
-        <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Contact</a>
+        <!-- <a href="#" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Experience</a> -->
+        <a href="#work" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Work</a>
+        <a href="#contact" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-2">Contact</a>
       </div>
     </nav>
   </header>

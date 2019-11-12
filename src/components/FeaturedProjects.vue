@@ -1,5 +1,5 @@
 <template>
-    <div class="//text-white //py-40 font-bar pb-8 h-full py-48 px-48 //bg-gray-900">
+    <div class="//text-white //py-40 font-bar pb-8 h-full py-48 px-48 //bg-gray-900" id="work">
         <div>
             <div class="">
                 <span class="text-lg text-brand-accent font-foo">03.</span>
@@ -9,7 +9,7 @@
             </div>
             <div class="flex py-12">
                 <div class="mr-16c w-2/3">
-                    <img src="../assets/site1.jpg" alt="" >
+                    <img src="../assets/placeholder.jpg" alt="" >
                 </div>
                 <div class="w-1/3 //leading-relaxed text-right">
                     <div class="text-teal-500 font-foo pl-16">Feaured Project</div>
@@ -44,12 +44,12 @@
                     <div class="text-teal-500 font-foo pr-16">Feaured Project</div>
                     <div class="text-white text-3xl pr-16 font-bold">My website</div>
                     <div class="bg-gray-800 p-4 -mr-48 mt-4 overflow-visible relative shadow-lg">
-                        A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and
+                        Second iteration of my personal website built with Vue and Tailwind and hosted on Netlify
                     </div>
                     <div class="flex mt-6 mb-4 justify-start">
-                        <div class="mx-2">JAVA</div>
-                        <div class="mx-2">Spring Boot</div>
-                        <div class="mx-2">Microservices</div>
+                        <div class="mx-2">Vue</div>
+                        <div class="mx-2">Tailwind</div>
+                        <div class="mx-2">Javascript</div>
                     </div>
                     <div>
 
@@ -70,13 +70,13 @@
 
             <div class="flex py-12">
                 <div class="mr-16c w-2/3">
-                    <img src="../assets/site1.jpg" alt="" >
+                    <img src="../assets/placeholder.jpg" alt="" >
                 </div>
                 <div class="w-1/3 //leading-relaxed text-right">
                     <div class="text-teal-500 font-foo pl-16">Feaured Project</div>
                     <div class="text-white text-3xl pl-16 font-bold">Scape</div>
                     <div class="bg-gray-800 p-4 -ml-48 mt-4 shadow-2xl">
-                        A nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and
+                        Microservice application for suggesting Degree programs based on your A-Level results
                     </div>
                     <div class="flex mt-6 mb-4 justify-end">
                         <div class="mx-2">JAVA</div>

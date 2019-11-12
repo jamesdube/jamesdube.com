@@ -1,5 +1,5 @@
 <template>
-    <div class="pb-8 h-screen py-48 px-48 bg-gray-900 ">
+    <div class="pb-8 h-screen py-48 px-48 bg-gray-900 " id="contact">
         <div>
             <div class="text-center">
                 <span class="w-64 border-t h-1 border-white inline-block self-center"></span>
