@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="pl-16">
-                    <img class="max-w-sm rounded-full" src="https://pbs.twimg.com/profile_images/1101924989316591617/_iXT2rbW_400x400.png">
+                    <img class="max-w-sm rounded-full" src="https://pbs.twimg.com/profile_images/1196844700566720514/MBrr3ztn_bigger.jpg">
                 </div>
             </div>
             
