@@ -1,11 +1,5 @@
 import Vue from 'vue'
-import App from './App3.vue'
-import VueAnalytics from 'vue-analytics'
-
-Vue.use(VueAnalytics, {
-  id: 'UA-153997790-1',
-  checkDuplicatedScript: true
-})
+import App from './App.vue'
 
 Vue.config.productionTip = false
 
