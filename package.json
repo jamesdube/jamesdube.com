@@ -11,8 +11,9 @@
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "autoprefixer": "^9.6.1",
     "core-js": "^2.6.5",
-    "tailwindcss": "^1.1.0",
-    "vue": "^2.6.10"
+    "tailwindcss": "^1.4.6",
+    "vue": "^2.6.10",
+    "vue-analytics": "^5.18.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.9.0",
