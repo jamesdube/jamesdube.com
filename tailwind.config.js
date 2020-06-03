@@ -15,6 +15,18 @@ module.exports = {
       }
     }
   },
+  purge: {
+  
+    enabled: process.env.NODE_ENV === 'production',
+    content: [
+      'App.vue',
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js',
+      'nuxt.config.js'
+    ]
+  },
   variants: {},
   plugins: []
 }
