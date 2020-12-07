@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
-    "autoprefixer": "^9.6.1",
+    "autoprefixer": "^9.8.6",
     "core-js": "^2.6.5",
     "tailwindcss": "^1.4.6",
     "vue": "^2.6.10"
