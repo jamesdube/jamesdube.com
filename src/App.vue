@@ -85,13 +85,13 @@
                             <a href="https://twitter.com/jamesddube"
                                class="flex items-center no-underline mb-10 -- sm:justify-center lg:justify-start">
                                 <div class="flex-shrink-0">
-                                    <img class="h-16 w-16 rounded-full border-2 border-teal-500"
-                                         src="https://pbs.twimg.com/profile_images/1196844700566720514/MBrr3ztn_400x400.jpg"
+                                    <img class="h-20 w-20 rounded-full border-4 border-teal-500"
+                                         src="https://instagram.fhre2-1.fna.fbcdn.net/v/t51.2885-19/s150x150/87209398_1050704548636101_2662934119280803840_n.jpg?_nc_ht=instagram.fhre2-1.fna.fbcdn.net&_nc_ohc=uHTefwM9eG0AX-Jzoh3&tp=1&oh=bdc076f748be8ac7937a1098d2ddeab5&oe=6035436C"
                                          alt="">
                                 </div>
                                 <div class="ml-3">
-                                    <p class="font-semibold /text-white leading-tight">James Dube</p>
-                                    <p class="text-sm text-gray-500 leading-tight">Software Developer</p>
+                                    <p class="/font-semibold /text-white leading-tight">James Dube</p>
+                                    <p class="text-sm text-gray-600 leading-tight">Software Developer</p>
                                 </div>
                             </a>
                             <h2 class="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
