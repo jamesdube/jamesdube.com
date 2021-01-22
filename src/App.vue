@@ -124,21 +124,6 @@
     </div>
 </template>
 
-<!-- Default Statcounter code for My Website https://jamesdube.com -->
-<script type="text/javascript">
-var sc_project=12466619; 
-var sc_invisible=1; 
-var sc_security="c564c9d3"; 
-var sc_https=1; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js" async></script>
-<noscript><div class="statcounter"><a title="web stats"
-href="https://statcounter.com/" target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/12466619/0/c564c9d3/1/" alt="web
-stats"></a></div></noscript>
-<!-- End of Statcounter Code -->
-
 <script>
     export default {
         data() {
