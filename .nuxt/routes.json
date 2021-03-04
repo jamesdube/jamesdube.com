@@ -1,0 +1,16 @@
+[
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/home/jdube/workspace/personal/web/jamesdube/pages/blog/index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_0d443c07"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/jdube/workspace/personal/web/jamesdube/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_a929b740"
+  }
+]
