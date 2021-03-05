@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto lg:px-60 text-gray-500 antialiased ">
+  <div class="container mx-auto px-8 lg:px-20 xl:px-60 text-gray-500 antialiased ">
     <div class="">
       <Header/>
     </div>
