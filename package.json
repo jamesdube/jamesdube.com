@@ -17,10 +17,12 @@
     "nuxt": "^2.14.12"
   },
   "devDependencies": {
+    "@nuxtjs/color-mode": "^2.0.4",
     "@nuxtjs/tailwindcss": "^3.4.2",
+    "@tailwindcss/forms": "^0.2.1",
     "@tailwindcss/postcss7-compat": "^2.0.3",
     "autoprefixer": "^9",
     "postcss": "^7",
-    "tailwindcss": "^2.0.1-compat"
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

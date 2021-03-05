@@ -19,6 +19,8 @@ import nuxt_plugin_workbox_0bd31e4c from 'nuxt_plugin_workbox_0bd31e4c' // Sourc
 import nuxt_plugin_metaplugin_78463ded from 'nuxt_plugin_metaplugin_78463ded' // Source: ./pwa/meta.plugin.js (mode: 'all')
 import nuxt_plugin_iconplugin_7cede361 from 'nuxt_plugin_iconplugin_7cede361' // Source: ./pwa/icon.plugin.js (mode: 'all')
 import nuxt_plugin_axios_47245984 from 'nuxt_plugin_axios_47245984' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_pluginserver_f67c2384 from 'nuxt_plugin_pluginserver_f67c2384' // Source: ./color-mode/plugin.server.js (mode: 'server')
+import nuxt_plugin_pluginclient_1f087cb6 from 'nuxt_plugin_pluginclient_1f087cb6' // Source: ./color-mode/plugin.client.js (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -64,7 +66,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"jamesdube","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"jamesdube","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[{"hid":"nuxt-color-mode-script","innerHTML":"!function(){\"use strict\";var e=window,s=document,o=s.documentElement,a=[\"dark\",\"light\"],t=window.localStorage.getItem(\"nuxt-color-mode\")||\"system\",c=\"system\"===t?l():t,i=s.body.getAttribute(\"data-color-mode-forced\");function r(e){var s=\"\"+e+\"\";o.classList?o.classList.add(s):o.className+=\" \"+s}function n(s){return e.matchMedia(\"(prefers-color-scheme\"+s+\")\")}function l(){if(e.matchMedia&&\"not all\"!==n(\"\").media)for(var s of a)if(n(\":\"+s).matches)return s;return\"light\"}i&&(c=i),r(c),e[\"__NUXT_COLOR_MODE__\"]={preference:t,value:c,getColorScheme:l,addClass:r,removeClass:function(e){var s=\"\"+e+\"\";o.classList?o.classList.remove(s):o.className=o.className.replace(new RegExp(s,\"g\"),\"\")}}}();\n","pbody":true}],"__dangerouslyDisableSanitizersByTagID":{"nuxt-color-mode-script":["innerHTML"]}},
 
     router,
     nuxt: {
@@ -204,6 +206,14 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_axios_47245984 === 'function') {
     await nuxt_plugin_axios_47245984(app.context, inject)
+  }
+
+  if (process.server && typeof nuxt_plugin_pluginserver_f67c2384 === 'function') {
+    await nuxt_plugin_pluginserver_f67c2384(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_pluginclient_1f087cb6 === 'function') {
+    await nuxt_plugin_pluginclient_1f087cb6(app.context, inject)
   }
 
   // Lock enablePreview in context

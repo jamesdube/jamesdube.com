@@ -1,4 +1,7 @@
 export default {
+  colorMode: {
+    classSuffix: ''
+  },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
@@ -30,6 +33,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
