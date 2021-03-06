@@ -2,7 +2,7 @@
 title: Fixing Invalid HELO’s
 author: Major Hayden
 type: post
-date: 2006-12-27T03:02:40+00:00
+createdAt: 2006-12-27T03:02:40+00:00
 description: >-
     You did your research and made a great options trade, but now it is a
     losing trade. What can you do now?

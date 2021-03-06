@@ -24,11 +24,6 @@
 						</nuxt-link>
 					</div>
 					<div class="px-6">
-						<nuxt-link :to="`/uses`">
-							Uses
-						</nuxt-link>
-					</div>
-					<div class="px-6">
 						<nuxt-link :to="`/blog`">
 							Blog
 						</nuxt-link>

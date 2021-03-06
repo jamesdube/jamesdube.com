@@ -3,6 +3,7 @@ title: Ecocash requirements
 description: >-
     You did your research and made a great options trade, but now it is a
     losing trade. What can you do now?
+date: "2021-02-10"
 ---
 
 This is an edge service that serves as a backwards compatible adapter for Epay v1 api used by Ecocash. This section provides documentation, code samples, and other information regarding legacy API connectivity to the epay platform from Ecocash.

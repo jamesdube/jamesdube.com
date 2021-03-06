@@ -1,7 +1,7 @@
 <template>
 	<div class="">
 		<div class="rounded-md /px-2 py-1 text-sm">
-          Febuary 16, 2021
+          {{   formatDate(post) }}
         </div>
 		<nuxt-link class="flex items-center mt-5" :to="`/blog/${post.slug}`">
           <div class="font-bold mt-3 md:mt-0 text-gray-700 dark:text-gray-400 text-xl">{{ post.title }}</div>
@@ -24,7 +24,14 @@
 </template>
 
 <script>
+var dateFormat = require('dateformat');
 	export default {
-		props : [ "post" ]
+		props : [ "post" ],
+    methods: {
+      formatDate(post){
+        let date = new Date(post.createdAt)
+        return dateFormat(date, "mmmm dS, yyyy");
+      }
+    }
 	};
 </script>

@@ -27,6 +27,10 @@
 						description: "Android App for the Laravel news website (Unofficial). Laravel News is the official blog of Laravel. Every day bringing you the latest news, tutorials, and packages for the framework...."
 					},
 					{
+						name: "Gobit Client",
+						description: "A RabbitMQ client written in golang. It is a wrapper around github.com/streadway/amqp to provide a smooth and better API for interacting with Rabbitmq...."
+					},
+					{
 						name: "Init C",
 						description: "Init Container for probing dependant services in Kubernetes..."
 					},
