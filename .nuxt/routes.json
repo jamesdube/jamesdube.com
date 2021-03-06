@@ -7,11 +7,25 @@
     "_name": "_0d443c07"
   },
   {
+    "name": "index.og",
+    "path": "/index.og",
+    "component": "/home/jdube/workspace/personal/web/jamesdube/pages/index.og.vue",
+    "chunkName": "pages/index.og",
+    "_name": "_1c6f9356"
+  },
+  {
     "name": "projects",
     "path": "/projects",
     "component": "/home/jdube/workspace/personal/web/jamesdube/pages/projects/index.vue",
     "chunkName": "pages/projects/index",
     "_name": "_a331fc42"
+  },
+  {
+    "name": "uses",
+    "path": "/uses",
+    "component": "/home/jdube/workspace/personal/web/jamesdube/pages/uses.vue",
+    "chunkName": "pages/uses",
+    "_name": "_c74c80a4"
   },
   {
     "name": "blog-slug",

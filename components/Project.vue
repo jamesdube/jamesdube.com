@@ -7,7 +7,7 @@
 						{{ name }}
 					</div>
 				</div>
-				<div class="py-4 px-4 md:bg-gray-100 md:text-gray-500 md:-mr-16 md:rounded-md">
+				<div class="py-4 px-4 border-2 md:bg-gray-100 md:border-gray-300 md:text-gray-500 md:-mr-16 md:rounded-md -- dark:bg-gray-700 dark:border-gray-500 dark:text-gray-400">
 					{{ description }}
 				</div>
 				<div class="py-4 px-4">
@@ -20,8 +20,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="/h-80 relative bg-red-100 md:col-span-3 md:static opacity-50 md:opacity-100">
-				<img class="w-auto h-auto border-2 border-gray-100 rounded-md" src="../assets/app.png">
+			<div class="/h-80 relative md:col-span-3 md:static opacity-50 md:opacity-100">
+				<img class="w-auto h-auto border-2 border-gray-200 rounded-md -- dark:border-gray-500 dark:text-gray-400" src="../assets/app.png">
 			</div>
 		</div>
 	</div>

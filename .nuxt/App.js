@@ -8,11 +8,14 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../assets/css/tailwind.css'
 
-import '../node_modules/prismjs/themes/prism.css'
+import '../node_modules/prism-themes/themes/prism-nord.css'
 
+import _4d6b410c from '../layouts/default.nw.vue'
+import _4d6b411b from '../layouts/default.og.vue'
+import _549cb904 from '../layouts/default.twist.vue'
 import _6f6c098b from '../layouts/default.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default.nw": sanitizeComponent(_4d6b410c),"_default.og": sanitizeComponent(_4d6b411b),"_default.twist": sanitizeComponent(_549cb904),"_default": sanitizeComponent(_6f6c098b) }
 
 export default {
   render (h, props) {

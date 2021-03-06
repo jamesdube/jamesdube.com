@@ -1,20 +1,12 @@
 <template>
-  <div>
-    <SectionHeader title="Latest" description="All the latest Tailwind CSS news, straight from the team"/>
-      <div class="flex justify-start">
-        <div class="">
-          <PostSummary class="border-t /border-gray-300 dark:border-gray-700 py-4" v-for="post in posts" :key="post.slug" :post="post"  />
-        </div>
-      </div>
-   <!--  <div v-for="post in posts" :key="post.slug" class=" py-8 md:grid md:grid-cols-6 flex justify-center">
-      <div class="md:col-span-4 border-t border-gray-300">
-        <div class="rounded-md /px-2 py-1 text-sm">
+	<div class="">
+		<div class="rounded-md /px-2 py-1 text-sm">
           Febuary 16, 2021
         </div>
-        <nuxt-link class="flex items-center mt-5" :to="`/blog/${post.slug}`">
-          <div class="font-bold mt-3 md:mt-0 text-gray-700 text-xl">{{ post.title }}</div>
+		<nuxt-link class="flex items-center mt-5" :to="`/blog/${post.slug}`">
+          <div class="font-bold mt-3 md:mt-0 text-gray-700 dark:text-gray-400 text-xl">{{ post.title }}</div>
         </nuxt-link>
-        <div class="mt-5">
+        <div class="mt-5 line-clamp-4">
           We started working with David Luhr last summer on a project-by-project basis to help us develop a Figma version of Tailwind UI (almost ready!), as well as to leverage his accessibility expertise when building Tailwind UI templates, ensuring we were following best practices and delivering markup that would work for everyone, no matter what tools they use to browse the web.
           Today we're excited to share that David has joined the team full-time!
         </div>
@@ -28,18 +20,11 @@
             </nuxt-link>
           </div>
         </div>
-      </div>
-    </div> -->
-  </div>
+	</div>
 </template>
 
 <script>
-  export default {
-    async asyncData(context){
-      const posts = await context.$content('blog').fetch()
-      return {
-        posts
-      }
-    }
-  };
+	export default {
+		props : [ "post" ]
+	};
 </script>

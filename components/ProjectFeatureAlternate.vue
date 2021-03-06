@@ -1,14 +1,14 @@
 <template>
 	<div>
 		<div class="relative md:grid md:grid-cols-5">
-			<div class="col-span-3 bg-blue-100 absolute md:static">
-				<img class="w-auto h-auto border-2 border-gray-100 rounded-md" src="../assets/app.png">
+			<div class="col-span-3 /bg-blue-100 absolute md:static ">
+				<img class="w-auto h-auto border-2 border-gray-200 rounded-md -- dark:border-gray-500 dark:text-gray-400" src="../assets/app.png">
 			</div>
 			<div class="col-span-2 /bg-gray-100 relative md:static text-right">
 				<div class="py-4 px-4 text-2xl font-bold /tracking-wide">
 					{{ name }}
 				</div>
-				<div class="py-4 px-4 md:bg-gray-100 md:text-gray-500 md:-ml-16 md:rounded-md">
+				<div class="py-4 px-4 border-2 md:bg-gray-100 md:border-gray-300 md:text-gray-500 md:-ml-16 md:rounded-md -- dark:bg-gray-700 dark:border-gray-500 dark:text-gray-400">
 					{{ description }}
 				</div>
 				<div class="py-4 px-4">

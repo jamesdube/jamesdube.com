@@ -1,6 +1,6 @@
 <template>
 	<div>
-      <div class="text-3xl leading-9 font-extrabold text-gray-800 /tracking-wide sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+      <div class="text-3xl leading-9 font-extrabold text-gray-700 dark:text-gray-400 /tracking-wide sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
         {{ title }}
       </div>
       <div class="my-5">

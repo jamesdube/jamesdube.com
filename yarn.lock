@@ -1396,6 +1396,11 @@
   dependencies:
     mini-svg-data-uri "^1.2.3"
 
+"@tailwindcss/line-clamp@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/line-clamp/-/line-clamp-0.2.0.tgz#7f30f26ed3835d64d1eb5a9b0d60cf5291dd2a3b"
+  integrity sha512-+jXSdRK3/9V/BCPCr+iNpMMhxWMMv62vn/AS2b3/ClmueGuhCijW3bUwO1IiHnE7uCaF74Sli8jUCv9djwvpLg==
+
 "@tailwindcss/postcss7-compat@^2.0.3", "tailwindcss@npm:@tailwindcss/postcss7-compat":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@tailwindcss/postcss7-compat/-/postcss7-compat-2.0.3.tgz#d212aa672eb5aa789fbf1ac253000707603d7676"
@@ -7728,6 +7733,11 @@ pretty-time@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pretty-time/-/pretty-time-1.1.0.tgz#ffb7429afabb8535c346a34e41873adf3d74dd0e"
   integrity sha512-28iF6xPQrP8Oa6uxE6a1biz+lWeTOAPKggvjB8HAs6nVMKZwf5bG++632Dx614hIWgUPkgivRfG+a8uAXGTIbA==
+
+prism-themes@^1.5.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/prism-themes/-/prism-themes-1.5.0.tgz#92925e4aa0ab5e0afefcea1032df7d61bbcdc1a5"
+  integrity sha512-aqKD610WNYO90MVXm0xM8P1pX5jPHyTjbAefV0TtWFLZk7eNWnGqLGx+HH6Xxlf9hiC66VjBeCP7m3P72FS+ZQ==
 
 prismjs@^1.23.0:
   version "1.23.0"

@@ -8,6 +8,12 @@
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
+  "Post": {
+    "description": "Auto imported from components/Post.vue"
+  },
+  "PostSummary": {
+    "description": "Auto imported from components/PostSummary.vue"
+  },
   "Project": {
     "description": "Auto imported from components/Project.vue"
   },

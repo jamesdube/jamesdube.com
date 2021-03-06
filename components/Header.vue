@@ -1,6 +1,6 @@
 <template>
 	<div class="">
-		<nav class="flex justify-between items-center /px-16 py-6 /border-b border-gray-300">
+		<nav class="flex justify-between items-center /px-16 py-6 /border-b border-gray-300 dark:text-gray-400">
 			<div>
 				<nuxt-link :to="`/`">
 					<svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -19,24 +19,37 @@
 				<div class="hidden sm:block">
 					<div class="flex justify-between">
 					<div class="px-6">
+						<nuxt-link :to="`/projects`">
+							Projects
+						</nuxt-link>
+					</div>
+					<div class="px-6">
+						<nuxt-link :to="`/uses`">
+							Uses
+						</nuxt-link>
+					</div>
+					<div class="px-6">
 						<nuxt-link :to="`/blog`">
 							Blog
 						</nuxt-link>
 					</div>
 					<div class="px-6">
-						<nuxt-link :to="`/projects`">
-							Projects
-						</nuxt-link>
+						<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/jamesddube">
+							Twitter
+						</a>
 					</div>
-					<div class="px-6">Twitter</div>
-					<div class="px-6">Github</div>
+					<div class="px-6">
+						<a target="_blank" rel="noopener noreferrer" href="https://github.com/jamesdube">
+							Github
+						</a>
+					</div>
 				</div>
 				</div>
 			</div>
 			<div class="hidden sm:block">
 				<div class="ml-6">
 					<div v-if="darkMode">
-						<svg @click="toggleColourScheme" class="w-6 h-6 cursor-pointer fill-current text-yellow-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<svg @click="toggleColourScheme" class="w-6 h-6 cursor-pointer fill-current text-yellow-400 hover:w-8 hover:h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
 						</svg>
 					</div>

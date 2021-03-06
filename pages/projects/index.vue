@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<SectionHeader title="Projects" description="Stuff i do when i'm bored"/>
-		<div class="border-t border-gray-300 py-8">
+		<div class="border-t border-gray-300 dark:border-gray-700 py-8">
 			<div class="/mb-60  --- ">
 				<div v-for="(project,index) in projects" :key="index">
 					<div v-if="index % 2 === 0">
