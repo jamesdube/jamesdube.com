@@ -7,5 +7,14 @@
   },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "Project": {
+    "description": "Auto imported from components/Project.vue"
+  },
+  "ProjectFeatureAlternate": {
+    "description": "Auto imported from components/ProjectFeatureAlternate.vue"
+  },
+  "SectionHeader": {
+    "description": "Auto imported from components/SectionHeader.vue"
   }
 }

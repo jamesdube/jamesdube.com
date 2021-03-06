@@ -9,3 +9,6 @@ You can directly use them in pages and other components without the need to impo
 - `<HeaderOg>` | `<header-og>` (components/Header.og.vue)
 - `<Header>` | `<header>` (components/Header.vue)
 - `<Logo>` | `<logo>` (components/Logo.vue)
+- `<Project>` | `<project>` (components/Project.vue)
+- `<ProjectFeatureAlternate>` | `<project-feature-alternate>` (components/ProjectFeatureAlternate.vue)
+- `<SectionHeader>` | `<section-header>` (components/SectionHeader.vue)

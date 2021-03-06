@@ -1,12 +1,9 @@
 <template>
   <div>
-    <div>
-      <div class="text-3xl leading-9 font-extrabold text-gray-800 tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">Latest</div>
-      <div class="my-5">All the latest Tailwind CSS news, straight from the team.</div>
-    </div>
+    <SectionHeader title="Latest" description="All the latest Tailwind CSS news, straight from the team"/>
     <div v-for="post in posts" :key="post.slug" class="border-t border-gray-300 py-8 md:grid md:grid-cols-6">
       <div class="md:col-span-2  ">
-        <span class="bg-gray-200 rounded-md px-2 py-1 text-sm">Febuary 16, 2021</span>
+        <span class="/bg-gray-200 rounded-md px-2 py-1 text-sm">Febuary 16, 2021</span>
       </div>
       <div class="md:col-span-4">
         <nuxt-link class="flex items-center" :to="`/blog/${post.slug}`">

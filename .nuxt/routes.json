@@ -7,6 +7,13 @@
     "_name": "_0d443c07"
   },
   {
+    "name": "projects",
+    "path": "/projects",
+    "component": "/home/jdube/workspace/personal/web/jamesdube/pages/projects/index.vue",
+    "chunkName": "pages/projects/index",
+    "_name": "_a331fc42"
+  },
+  {
     "name": "blog-slug",
     "path": "/blog/:slug",
     "component": "/home/jdube/workspace/personal/web/jamesdube/pages/blog/_slug.vue",

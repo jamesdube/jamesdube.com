@@ -1,27 +1,20 @@
 <template>
-  <div>
-    <div class="grid grid-cols-2 space-x-10 flex items-center">
-      <div>
-        <div class="text-7xl font-extrabold">I build things for <span class="text-green-700">the web</span></div>
-        <div class="mt-3 /tracking-wider font-light text-xl text-gray-500">
-          I'm a software developer with Ops experience, specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
-        </div>
-        <div class="grid grid-cols-5 py-8">
-          <div class="bg-gray-100 rounded-md p-4">
+  <div class="mt-20">
+    <section class="/min-h-screen /bg-red-300">
+      <div class="md:bg-gray-50 md:border-8 md:border-gray-100 /p-4  md:rounded-lg md:transform md:rotate-3">
+        <div class="md:transform md:-rotate-3">
+          <div class="text-6xl md:text-9xl font-extrabold text-gray-700">James Dube</div>
+          <div class="text-6xl md:text-9xl mt-4 font-extrabold text-gray-500">I build things for <span class="text-teal-600">the web</span></div>
+          <div class="mt-10 text-lg">
+            I'm a software developer with Ops experience, specializing in building (and occasionally designing) exceptional, high-quality websites and applications.
           </div>
         </div>
       </div>
-      <div>
-        <div class="bg-gray-100 px-28 py-28 rounded-lg transform hover:rotate-6">
-          
-        </div>
-      </div>
-      
-    </div>
+    </section>
   </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
