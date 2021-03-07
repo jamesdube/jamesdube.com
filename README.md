@@ -1,6 +1,6 @@
 # jamesdube
 
-[image]()
+![Benjamin Bannekat](https://raw.githubusercontent.com/jamesdube/jamesdube.com/development/assets/screenshot-dark.png)
 
 ## Build Setup
 
