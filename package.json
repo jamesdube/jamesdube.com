@@ -1,44 +1,32 @@
 {
-  "name": "my-tailwind-project",
-  "version": "0.1.0",
+  "name": "jamesdube",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
   },
   "dependencies": {
-    "@fullhuman/postcss-purgecss": "^2.2.0",
-    "autoprefixer": "^9.6.1",
-    "core-js": "^2.6.5",
-    "tailwindcss": "^1.4.6",
-    "vue": "^2.6.10"
+    "@nuxt/content": "^1.11.1",
+    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@splitbee/web": "^0.2.4",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "aframe": "^1.2.0",
+    "core-js": "^3.8.3",
+    "dateformat": "^4.5.1",
+    "nuxt": "^2.14.12",
+    "prism-themes": "^1.5.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.9.0",
-    "@vue/cli-plugin-eslint": "^3.9.0",
-    "@vue/cli-service": "^3.9.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^7.19.0",
-    "eslint-plugin-vue": "^7.6.0",
-    "vue-template-compiler": "^2.6.10"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions"
-  ]
+    "@nuxtjs/color-mode": "^2.0.4",
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9",
+    "postcss": "^8",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  }
 }
