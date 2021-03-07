@@ -1,6 +1,7 @@
 export default {
   colorMode: {
-    classSuffix: ''
+    classSuffix: '',
+    preference: 'dark'
   },
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
