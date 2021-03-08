@@ -30,12 +30,12 @@
 								</nuxt-link>
 							</div>
 							<div class="px-6">
-								<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/jamesddube">
+								<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/jamesddube" data-splitbee-event="External Link" data-splitbee-event-type="twitter">
 									Twitter
 								</a>
 							</div>
 							<div class="px-6">
-								<a target="_blank" rel="noopener noreferrer" href="https://github.com/jamesdube">
+								<a target="_blank" rel="noopener noreferrer" href="https://github.com/jamesdube" data-splitbee-event="External Link" data-splitbee-event-type="github">
 									Github
 								</a>
 							</div>
