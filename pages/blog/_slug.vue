@@ -7,7 +7,7 @@
 		<div class="pt-10">
 			<div class="lg:grid lg:grid-cols-8">
 				<div class="md:col-span-8">
-					<nuxt-content class="/tracking-wide /leading-loose dark:text-gray-400" :document="post" />	
+					<nuxt-content class="/tracking-wide leading-relaxed dark:text-gray-400" :document="post" />	
 				</div>
 			</div>
 		</div>
