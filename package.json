@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.11.1",
-    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/axios": "^5.13.5",
     "@nuxtjs/pwa": "^3.3.5",
     "@splitbee/web": "^0.2.4",
     "@tailwindcss/line-clamp": "^0.2.0",
