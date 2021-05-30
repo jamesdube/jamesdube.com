@@ -7,6 +7,8 @@ description: >-
     losing trade. What can you do now?
 date: "2021-02-10"
 slug: starting-your-containers-in-order-using-init-containers-in-kubernetes
+published: true
+isArchived: false
 twitter:
   card: "summary_large_image"
   site: "@majorhayden"

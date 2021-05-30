@@ -2,7 +2,7 @@
 	<div>
 		<div class="relative md:grid md:grid-cols-5">
 			<div class="col-span-3 /bg-blue-100 absolute md:static ">
-				<img class="w-auto h-auto border-2 border-gray-200 rounded-md -- dark:border-gray-500 dark:text-gray-400" src="../assets/app.png">
+				<img class="w-auto h-auto border-2 border-gray-200 rounded-md -- dark:border-gray-500 dark:text-gray-400" src="../assets/github.png">
 			</div>
 			<div class="col-span-2 /bg-gray-100 relative md:static text-right">
 				<div class="py-4 px-4 text-2xl font-bold /tracking-wide">

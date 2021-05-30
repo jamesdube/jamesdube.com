@@ -2,6 +2,8 @@
 title: What is an API?
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 createdAt "2021-02-10"
+published: false
+isArchived: false
 ---
 
 Almost exactly 18 months ago we released Tailwind CSS v1.0, which signalled a commitment to stability while continuing to push the boundaries with exciting new features in every minor release.

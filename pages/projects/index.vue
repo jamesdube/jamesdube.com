@@ -5,7 +5,7 @@
 			<div class="/mb-60  --- ">
 				<div v-for="(project,index) in projects" :key="index">
 					<div v-if="index % 2 === 0">
-						<Project class="py-20" :name="project.name" :description="project.description"/>
+						<Project class="py-20" :name="project.name" :description="project.description" :link="project.link"/>
 					</div>
 					<div v-else>
 						<ProjectFeatureAlternate class="py-20" :name="project.name" :description="project.description"/> 
@@ -24,19 +24,23 @@
 				projects: [
 					{
 						name: "Laravel News App",
-						description: "Android App for the Laravel news website (Unofficial). Laravel News is the official blog of Laravel. Every day bringing you the latest news, tutorials, and packages for the framework...."
+						description: "Android App for the Laravel news website (Unofficial). Laravel News is the official blog of Laravel. Every day bringing you the latest news, tutorials, and packages for the framework....",
+						link: "https://github.com/jamesdube/LaravelNewsApp"
 					},
 					{
 						name: "Gobit Client",
-						description: "A RabbitMQ client written in golang. It is a wrapper around github.com/streadway/amqp to provide a smooth and better API for interacting with Rabbitmq...."
+						description: "A RabbitMQ client written in golang. It is a wrapper around github.com/streadway/amqp to provide a smooth and better API for interacting with Rabbitmq....",
+						link: "https://github.com/jamesdube/gobit"
 					},
 					{
 						name: "Init C",
-						description: "Init Container for probing dependant services in Kubernetes..."
+						description: "Init Container for probing dependant services in Kubernetes...",
+						link: "https://github.com/jamesdube/init-c"
 					},
 					{
 						name: "Ansible Kubernetes",
-						description: "Ansible playbook to create a kubernetes cluster..."
+						description: "Ansible playbook to create a kubernetes cluster...",
+						link: "https://github.com/jamesdube/ansible-kubernetes"
 					}
 				]
 			}

@@ -2,6 +2,8 @@
 title: Finally I created a blog
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 date: 2006-12-27T03:02:40+00:00
+published: true
+isArchived: true
 ---
 
 Almost exactly 18 months ago we released Tailwind CSS v1.0, which signalled a commitment to stability while continuing to push the boundaries with exciting new features in every minor release.

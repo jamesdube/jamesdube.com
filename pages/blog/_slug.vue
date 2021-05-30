@@ -19,7 +19,6 @@ var dateFormat = require('dateformat');
 	export default {
 		async asyncData({$content,params}){
 			const post = await $content('blog',params.slug).fetch()
-			console.log(post)
 			return {
 				post
 			}
